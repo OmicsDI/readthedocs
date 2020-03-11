@@ -17,6 +17,14 @@ Contents
    .. toctree::
    :maxdepth: 2
 
+   ddipy
+   .. toctree::
+   :maxdepth: 2
+
+   ddiR
+   .. toctree::
+   :maxdepth: 2
+
    support
    .. toctree::
    :maxdepth: 2
