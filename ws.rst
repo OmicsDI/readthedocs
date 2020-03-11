@@ -3,8 +3,7 @@
 OmicsDI Restful Documentation
 ===============
 
-Most data in the Datatsets Discovery Index can be accessed
-programmatically using a [RESTful API](www.omicsdi.org/ws).
+Most data in the Datatsets Discovery Index can be accessed programmatically using a `RESTful API <www.omicsdi.org/ws>`_.
 The API implementation is based on the Spring Rest Framework.
 
 Web-browsable API
