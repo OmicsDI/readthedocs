@@ -1,7 +1,6 @@
 .. _ddipy
 
-
-ddipy: A Python package to interact with OmicsDI Restful API
+ddipy: Python package
 ===========================
 
 An `Python package <https://github.com/OmicsDI/ddipy>`_ to obtain data from the `Omics Discovery Index <http://www.omicsdi.org>`_. It uses the RESTful Web Services at `OmicsDI WS <http://www.omicsdi.org/ws/>`_ for that purpose.

@@ -1,6 +1,6 @@
 .. _ddiR
 
-ddiR: R package to interact with OmicsDI RestFul API
+ddiR: R package
 ==========================================
 
 An `R package <https://github.com/OmicsDI/ddiR>`_ to obtain data from the Omics Discovery Index `OmicsDI <http://www.omicsdi.org>`_. It uses its RESTful Web Services at `OmicsDI WS <http://www.omicsdi.org/ws/>`_ for that purpose.
