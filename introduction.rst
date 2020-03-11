@@ -1,11 +1,12 @@
 Introduction
 ============
 
-.. sidebar:: Individual Tools Documentation
-   :subtitle: **It can make your life easier** if you want to explore individual tools:
+.. sidebar:: Individual libraries documentation
+   :subtitle: **It can make your life easier** if you want to explore individual libraries:
 
-   - :doc:`pepgenome`
-   - :doc:`pepbedr`
+   - :doc:`ddipy`
+   - :doc:`ddiR`
+   - :doc:`ws`
 
 Proteogenomics is a field of biological research that utilizes a combination of proteomics, genomics, and transcriptomics to aid in the discovery and identification/quantification of peptides and proteins. Proteogenomics is used to identify new peptides by comparing MS/MS spectra against a protein database that has been derived from genomic and transcriptomics information.
 
