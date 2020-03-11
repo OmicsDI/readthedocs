@@ -4,19 +4,18 @@ Introduction
 .. sidebar:: Individual libraries documentation
    :subtitle: **It can make your life easier** if you want to explore individual libraries:
 
+   - :doc:`ws`
    - :doc:`ddipy`
    - :doc:`ddiR`
-   - :doc:`ws`
 
-Proteogenomics is a field of biological research that utilizes a combination of proteomics, genomics, and transcriptomics to aid in the discovery and identification/quantification of peptides and proteins. Proteogenomics is used to identify new peptides by comparing MS/MS spectra against a protein database that has been derived from genomic and transcriptomics information.
 
-.. image:: images/pg.jpg
+Omics Discovery Index is an integrated and open source platform facilitating the access and dissemination of omics datasets. It provides a unique infrastructure to integrate datasets coming from multiple omics studies, including at present proteomics, genomics, transcriptomics and metabolomics.
+
+OmicsDI stores metadata coming from the public datasets from every resource using an efficient indexing system, which is able to integrate different biological entities including genes, proteins and metabolites with the relevant life science literature. OmicsDI is updated daily, as new datasets get publicly available in the contributing repositories.
+.. image:: images/pg.png
    :width: 350
 
+After the data is submitted to a formal Archive, Knowledge Base Databases (BDs) reuse part of the public data to respond to specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The number of these DBs has growth in recent years (https://www.omicsdi.org/database).
 
-In this approach, customized protein sequence databases generated using genomic and transcriptomic information are used to help identify novel peptides (not present in reference protein sequence databases) from mass spectrometry–based proteomic data; in turn, the proteomic data can be used to provide protein-level evidence of gene expression and to help refine gene models.
-
-Proteogenomics can be also seen as the way to present proteomics evidences in to genomics context.
-
-.. note:: You can read a more about the topic here: https://www.nature.com/articles/nmeth.3144
+.. note:: You can read a more about the topic here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5831141/
 
