@@ -8,7 +8,7 @@ The OmicsDI Analysis Toolkit is developed by the following people:
 - Enrique Audain (Kiel University)
 - Gaurhari Dass (EMBL-EBI)
 - Pan Xu (Beijin Proteomics Center)
-
+- Ariana Barbera-Betancourt](Cambridge University)
 
 
 Support
