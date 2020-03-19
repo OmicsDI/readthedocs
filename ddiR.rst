@@ -29,7 +29,7 @@ Examples
 
 This example retrives all dataset details given accession and database identifier
 
-.. code-block:: R
+.. code-block:: r
    :linenos:
 
     library(ddiR)
@@ -46,7 +46,7 @@ This example retrives all dataset details given accession and database identifie
 
 Access to all datasets for NOTCH1 gene
 
-.. code-block:: python
+.. code-block:: r
    :linenos:
 
     library(ddiR)
@@ -67,10 +67,49 @@ Access to all datasets for NOTCH1 gene
     sink()
 
 
+Getting the dataset IDs and full link of 20 Genomics studies in Cancer
+
+.. code-block:: r
+   :linenos:
+   
+    datasets <- search.DatasetsSummary(query = "Cancer AND Genomics")
+
+    for(dataset in datasets@datasets){
+        dataset = get.DatasetDetail(accession=dataset.id(dataset), database=database(dataset))
+        print(paste(dataset.id(dataset), get.dataset.link(dataset), sep = ' '))
+    }
+    
+    
+Print the dataset IDs and short description of 20 Proteomics studies for tumor supressor p53
+
+.. code-block:: r
+   :linenos:
+   
+    datasets <- search.DatasetsSummary(query = "p53 AND Proteomics")
+
+    for(dataset in datasets@datasets){
+        dataset = get.DatasetDetail(accession=dataset.id(dataset), database=database(dataset))
+        print(paste(dataset.id(dataset), get.dataset.name(dataset), sep = ' '))
+    }
+    
+    
+Getting Proteomics studies in Heart tissue from PRIDE database
+
+.. code-block:: r
+   :linenos:
+   
+    datasets <- search.DatasetsSummary(query = "Heart")
+
+    for(dataset in datasets@datasets){
+        dataset = get.DatasetDetail(accession=dataset.id(dataset), database=database(dataset))
+        if(database(dataset)=='pride')
+         print(paste(dataset.id(dataset), get.dataset.tissues(dataset), get.dataset.omics(dataset), sep = ' '))
+    }
+
 
 This example shows how retrieve all the metadata similarity scores by using the R-package ddiR.
 
-.. code-block:: python
+.. code-block:: r
    :linenos:
 
     library(ddiR)
